@@ -1,0 +1,14 @@
+# Git
+.git
+.gitignore
+.github
+
+# Build artifacts
+dist
+__pycache__
+*.pyc
+*.whl
+
+# Docker
+docker-compose.yml
+Dockerfile
