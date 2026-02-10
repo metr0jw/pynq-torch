@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  pytorch-builder:
+    image: pytorch-pynq-builder:latest
+    platform: linux/arm/v7
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./dist:/opt/pytorch/dist

@@ -1,23 +1,21 @@
 # pynq-torch
 
-Pre-built PyTorch 2.2.0 wheels for Pynq-Z2 (ARMv7l) and Python 3.12.
+Pre-built PyTorch 2.10.0 wheels for Pynq-Z2 (ARMv7l) and Python 3.12.
 
-## Installation
+## Install
 
-Download the wheel file from the [releases page](https://github.com/metr0jw/pynq-torch/releases) and install it:
+Download a wheel from the [releases page](https://github.com/metr0jw/pynq-torch/releases) and install it:
 
 ```bash
-pip install torch-2.2.0-cp312-cp312-linux_armv7l.whl
+pip install torch-2.10.0-cp312-cp312-linux_armv7l.whl
 ```
 
-## ⚠️ RAM Limitation Warning
+## Warning
 
-The Pynq-Z2 board has only 512MB of RAM. **It is strongly recommended to set up at least 2GB of swap space** before installing or using PyTorch to avoid out-of-memory errors.
+Pynq-Z2 has 512MB RAM. Use at least 2GB swap to avoid out-of-memory errors.
 
-## Build Configuration
+## Build flags
 
-This wheel was built with the following flags:
-
-- `NO_CUDA=1` - CUDA support disabled
-- `NO_DISTRIBUTED=1` - Distributed training disabled
+- `NO_CUDA=1`
+- `NO_DISTRIBUTED=1`
 - ARM NEON optimization enabled
