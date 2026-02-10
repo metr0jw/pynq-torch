@@ -9,6 +9,7 @@ When a tag (e.g., `v2.10.0`) is pushed, wheels are automatically built for:
 - **Python 3.10**
 - **Python 3.11**
 - **Python 3.12**
+- **Python 3.13**
 
 ## Installation
 
