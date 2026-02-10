@@ -4,6 +4,8 @@ Pre-built PyTorch 2.2.0 wheels for Pynq-Z2 (ARMv7l) and Python 3.12.
 
 ## Installation
 
+Download the wheel file from the [releases page](https://github.com/metr0jw/pynq-torch/releases) and install it:
+
 ```bash
 pip install torch-2.2.0-cp312-cp312-linux_armv7l.whl
 ```
